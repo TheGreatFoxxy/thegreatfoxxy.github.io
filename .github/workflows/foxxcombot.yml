@@ -18,7 +18,7 @@ jobs:
         run: echo Hello! Lets commit something!
 
       - name: Do nothing.
-        run: echo Yaay! I'm running!
+        run: echo Yaay! Im running!
       
       - name: No point.
         run: echo I did absolutely nothing. Yeet
