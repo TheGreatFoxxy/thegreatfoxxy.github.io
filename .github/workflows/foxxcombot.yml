@@ -1,0 +1,24 @@
+name: FoxxCommitBot CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Say something.
+        run: echo Hello! Lets commit something!
+
+      - name: Do nothing.
+        run: echo Yaay! I'm running!
+      
+      - name: No point.
+        run: echo I did absolutely nothing. Yeet
