@@ -1,6 +1,5 @@
 # thgreatfoxxy.github.io
 My website
-I try to update this as often as I can.
-
+Not Intended to be viewed as a actual website, just something to base my pages on.
 ## Included in site
-Stuff i've made, links to other github things
+Nothing. Just a bunch of links on a special page.
